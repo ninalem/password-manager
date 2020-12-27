@@ -1,4 +1,4 @@
-function LoginForm () {
+function LoginForm (): JSX.Element {
   return (
     <form action="">
       <p>
