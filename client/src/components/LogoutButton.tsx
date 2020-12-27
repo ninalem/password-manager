@@ -1,4 +1,4 @@
-function LogoutButton () {
+function LogoutButton (): JSX.Element {
   return (
     <button onClick={logout}>Logout</button>
   )

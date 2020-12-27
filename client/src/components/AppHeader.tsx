@@ -1,8 +1,10 @@
 import LogoutButton from './LogoutButton'
 
-const loggedIn = false
+interface HeaderProps {
+  loggedIn: boolean;
+}
 
-function AppHeader () {
+function AppHeader ({ loggedIn }: HeaderProps): JSX.Element {
     return (
       <header className="App-header">
         <p>

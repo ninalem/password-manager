@@ -5,10 +5,10 @@ import './App.css';
 
 const loggedIn = false
 
-function App() {
+function App (): JSX.Element {
   return (
     <div className="App">
-      <AppHeader />
+      <AppHeader loggedIn={loggedIn} />
       { !loggedIn && <LoginForm /> }
     </div>
   );
