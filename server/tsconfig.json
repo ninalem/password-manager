@@ -1,12 +1,20 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "moduleResolution": "node",
     "pretty": true,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
     "sourceMap": true,
-    "target": "es6",
+    "target": "ESNext",
     "outDir": "./dist",
-    "baseUrl": "./lib"
+    "incremental": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./src/"
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules"]
