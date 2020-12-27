@@ -6,7 +6,7 @@ const dbName = process.env.DB_NAME || "passmanager";
 const host = process.env.MONGO_HOST || "localhost";
 export const mongoPort = process.env.MONGO_PORT || "27017";
 
-const mongoUri =
+export const mongoUri =
   process.env.MONGODB_URL ||
   `mongodb://${dbUser}:${dbPass}@${host}:${mongoPort}/${dbName}`;
 
