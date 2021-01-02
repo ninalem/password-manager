@@ -1,1 +1,1 @@
-export const getConnection = jest.fn(() => Promise.resolve());
+export const getConnection = jest.fn(() => Promise.resolve())
